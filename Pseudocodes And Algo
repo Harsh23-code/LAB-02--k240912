@@ -14,14 +14,6 @@ TASK 01:
 
 
 
-
-
-
-
-
-
-
-
 TASK 02:
 
 1.	 Ask the user to  enter day number(1-365)
@@ -63,11 +55,7 @@ TASK 03:
 
 
 
-
-
-
-
-                                                                             PSEUDOCODE
+                                                         PSEUDOCODE
 TASK 01
 1.	         START
 2.	         Input no 1 = X
