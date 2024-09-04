@@ -1,0 +1,124 @@
+                                                                            ALGORITHM
+24k-0912
+TASK 01:
+1.	Start
+2.	input number n
+3.	check if n is less than 2 then it is not prime
+4.	check if n is 2 or 3 then it is prime
+5.	start loop  
+6.	counter=3 and iterate to the n
+7.	 if n is divisible by counter more than 1 time
+8.	Then It is not prime 
+9.	Else Prime
+
+
+
+
+
+
+
+
+
+
+
+
+TASK 02:
+
+1.	 Ask the user to  enter day number(1-365)
+2.	Make sure that the day is in range of 1-365 days
+3.	If not, prompt the user to enter a valid number
+4.	To check the day of a week, subtract 1 form the day number, 
+5.	Compute the reminder when dividing this result by 7(N-1)%7)
+6.	This remainder give you an index corresponding to a day of a week.
+7.	Start the number of days from 0 and take Monday as a zero
+8.	0 = Monday
+9.	  1 = Tuesday
+10.	 2= Wednesday
+11.	 3= Thursday
+12.	 4= Friday
+13.	 5= Saturday
+14.	 6= Sunday
+15.	 END
+
+
+
+
+
+
+TASK 03:
+1.	Ask the user to take the two positive number x and y
+2.	Suppose x=X  and y=Y
+3.	Repeat the Steps until “Y” becomes Zero
+4.	Calculate  the remainder r when x is divided by (r= x % y)
+5.	Set x=y
+6.	 Set y= r 
+7.	Once b becomes 0, the value of a is the GCD of original number X AND Y 
+8.	Display x as a the GCD
+9.	END
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                             PSEUDOCODE
+TASK 01
+1.	         START
+2.	         Input no 1 = X
+3.	         Input no 2 = Y
+4.	         Input no 3 = Z
+5.	         IF x<y<z
+6.	
+7.	          Print x is the smallest
+8.	          IF y<z<x
+9.	
+10.	Print y is the smallest
+11.	IF z<x<y
+12.	Print x is the smallest
+
+
+
+
+
+
+
+
+TASK 02:
+
+1.	Input no 1 
+2.	Input no 2
+3.	Use the operator +
+4.	Take the second number Negative, 
+5.	Add these two numbers
+6.	This give the same result as the subtraction of no 1 from no 2
+7.	Show the Result
+8.	Output = Result of subtracting “no1 from no 2”
+
+
+
+
+
+
+
+
+
+
+TASK 03: 
+
+1.	Input no 1 
+2.	Input no 2
+3.	Ask the user for the desired operation (either * for multiplication or / for division) 
+4.	PRINT "Enter the operation (* for multiplication or / for division)
+5.	Check the which operation the user has selected
+6.	IF operator takes *
+7.	Print   “multiply the no1 * no2”
+8.	ELSE if operator takes / 
+9.	Print  “divide the no1 / no 2”
+10.	END
+
